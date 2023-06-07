@@ -1,0 +1,10 @@
+.ns_modal {
+  width: 30vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
+  transition: 0.3s;
+}

@@ -1,0 +1,55 @@
+.ns_modal--header {
+  height: 15%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ns_modal--header button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ns_modal--content {
+  height: 70%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ns_modal--actions {
+  height: 15%;
+  width: 90%;
+}
+
+.close-btn {
+  width: 20px;
+  height: 20px;
+  padding: 15px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: var(--blue-80);
+  font-size: 20px;
+  border-radius: 50%;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.close-btn:hover {
+  background-color: white;
+  color: var(--blue-80);
+}
+
+.delete-actions {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

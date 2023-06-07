@@ -1,0 +1,10 @@
+.btn {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: var(--blue-100);
+  letter-spacing: 10px;
+  position: relative;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}

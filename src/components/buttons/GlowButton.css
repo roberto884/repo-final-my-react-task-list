@@ -1,0 +1,40 @@
+.btn-glow {
+  border: 3px solid;
+  transition: all 0.3s ease;
+}
+
+.btn-glow:hover {
+  background-color: var(--blue-100);
+  box-shadow: 0 0 20px var(--blue-20);
+  border-color: var(--blue-20);
+}
+
+.btn-glow span:nth-child(n) {
+  position: absolute;
+  border: 3px solid;
+  width: 15px;
+  height: 15px;
+  transition: all 0.3s ease;
+}
+.btn-glow span:nth-child(1) {
+  right: 10%;
+  top: -10%;
+  background-color: #fff;
+}
+.btn-glow span:nth-child(2) {
+  left: 10%;
+  bottom: -10%;
+}
+
+.btn-glow:hover span:nth-child(1) {
+  right: 80%;
+  color: var(--blue-20);
+  background-color: var(--blue-20);
+  transform: rotate(90deg);
+}
+
+.btn-glow:hover span:nth-child(2) {
+  left: 80%;
+  color: var(--blue-20);
+  transform: rotate(90deg);
+}

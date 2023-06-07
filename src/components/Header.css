@@ -1,0 +1,10 @@
+.head-container {
+  padding: 10px;
+  border: none;
+}
+
+.head-title {
+  font-size: 30px;
+  text-decoration: underline;
+  color: var(--blue-100);
+}

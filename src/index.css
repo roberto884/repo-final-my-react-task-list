@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+:root {
+  --blue-100: #000000;
+  --blue-80: #000000;
+  --blue-60: #ce0000;
+  --blue-40: #fafafa;
+  --blue-20: #dbcc79;
+  --blue-10: #d8e067;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: var(--blue-20);
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  color: var(--blue-100);
+}
+
+#portal {
+  background-color: var(--blue-80);
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid var(--blue-20);
+  box-shadow: 5px 5px 10px 1px var(--blue-20);
+  transition: 0.3s;
+}
